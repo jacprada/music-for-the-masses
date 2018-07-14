@@ -1,0 +1,18 @@
+:host {
+    align-items: center;
+    display: flex;
+    background-color: snow;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+
+    .header__title {
+        color: grey;
+    }
+
+    .header__description {
+        color: grey;
+    }
+}
