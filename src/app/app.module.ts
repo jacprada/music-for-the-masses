@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FilterComponent } from './filter/filter.component';
 import { CollectionComponent } from './collection/collection.component';
 import { FooterComponent } from './footer/footer.component';
+import { RecordComponent } from './record/record.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     FilterComponent,
     CollectionComponent,
-    FooterComponent
+    FooterComponent,
+    RecordComponent
   ],
   imports: [
     BrowserModule
