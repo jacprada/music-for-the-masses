@@ -1,0 +1,9 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-evenly;
+    min-height: calc(100vh - 17rem);
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+}
