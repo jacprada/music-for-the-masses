@@ -1,10 +1,37 @@
 :host {
+    cursor: pointer;
     display: block;
     overflow: hidden;
+    position: relative;
     width: calc(100% / 5 - 2rem);
     margin: 1rem;
 
+    &:before {
+        background-color: #F0C808;
+        // content: '\2664';
+        // content: '\2661';
+        // content: '\2662';
+        // content: '\2667';
+        content: '';
+        height: 0;
+        right: 0;
+        padding-bottom: 0%;
+        position: absolute;
+        top: 0;
+        width: 0%;
+        border-bottom-left-radius: 100%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        &:before {
+            padding-bottom: 15%;
+            width: 15%;
+        }
+    }
+
     .record__artwork {
+        display: block;
         width: 100%;
     }
 
