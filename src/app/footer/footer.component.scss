@@ -4,10 +4,9 @@
     display: flex;
     height: 6rem;
     justify-content: space-between;
-    overflow: hidden;
-    width: 100%;
-    width: calc(100% - 4rem);
     margin: 3rem auto 0 auto;
+    overflow: hidden;
+    width: calc(100% - 4rem);
 
     .footer__menu {
         display: flex;

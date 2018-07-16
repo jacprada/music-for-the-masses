@@ -25,22 +25,22 @@
         }
     }
 
-    .header__description {
+    .header__subtitle {
         border-top: 2px solid #222;
-        color: #222;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 800;
-        text-transform: uppercase;
         margin: 0 0 20px 0;
         text-align: center;
         width: calc(100% - 4rem);
 
-        &--detail {
-            background: #ef4723;
+        &--text {
             background-color: #ededec;
+            color: #222;
+            display: inline;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 800;
             padding: 0 20px;
             position: relative;
+            text-transform: uppercase;
             top: -10px;
         }
     }
