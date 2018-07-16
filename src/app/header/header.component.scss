@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 12rem;
     justify-content: center;
+    padding-top: 1rem;
     overflow: hidden;
     width: 100%;
 
@@ -25,7 +26,7 @@
     }
 
     .header__description {
-        border-top: 1px solid #222;
+        border-top: 2px solid #222;
         color: #222;
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
